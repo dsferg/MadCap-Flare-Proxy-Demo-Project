@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="111" MadCap:lastWidth="1279">
+    <head>
+    </head>
+    <body>
+        <MadCap:breadcrumbsProxy />
+        <div class="Row-StandardMasterPage">
+            <div>
+                <MadCap:menuProxy style="mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" />
+            </div>
+            <div>
+                <MadCap:bodyProxy />
+            </div>
+        </div>
+        <MadCap:topicToolbarProxy class="" style="mc-topic-toolbar-items: ;" />
+    </body>
+</html>
