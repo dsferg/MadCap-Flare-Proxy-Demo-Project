@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="135" MadCap:lastWidth="1032">
+    <head>
+    </head>
+    <body>
+        <MadCap:pageHeader>
+            <p><MadCap:variable name="Running HF.Running H/F 1" />
+            </p>
+        </MadCap:pageHeader>
+        <MadCap:bodyProxy style="mc-printer-page-footer-margin: 0.5in;mc-printer-page-header-margin: 0.5in;mc-printer-page-margin-bottom: 1in;mc-printer-page-margin-top: 1in;mc-printer-page-margin-right: 1in;mc-printer-page-margin-left: 1in;mc-page-number-start-value: 1;mc-page-number-format: decimal;mc-printer-page-orientation: portrait;mc-printer-page-size: letter;" />
+        <MadCap:pageFooter>- <MadCap:variable name="System.PageNumber" /> -</MadCap:pageFooter>
+    </body>
+</html>
