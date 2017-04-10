@@ -1,4 +1,4 @@
-﻿/*<meta />*/
+/*<meta />*/
 
 body
 {
@@ -238,6 +238,7 @@ div.Row-BreadCrumbs > div:nth-child(2)
 MadCap|breadcrumbsProxy
 {
 	border-bottom-style: none;
+	mc-breadcrumbs-prefix: ' ';
 }
 
 MadCap|indexProxy
@@ -291,9 +292,9 @@ MadCap|searchResultsProxy
 		
 	}
 
-	div.Row-BreadCrumbs
+	ul.menu._Skins_Menu.mc-component
 	{
-		border-bottom: solid 2px #a9a9a9;
+		width: 100%;
 	}
 }
 
@@ -319,14 +320,25 @@ MadCap|searchResultsProxy
 
 	div.Row-BreadCrumbs > div:nth-child(2)
 	{
-		width: 100%;
-		margin-left: 0%;
+		display: none;
 	}
-	
-	ul.menu._Skins_Menu.mc-component,
+
+	ul.menu._Skins_Menu.mc-component li > a
 	{
-		width: 100%;
-		border-right: none;
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+
+	ul.menu._Skins_Menu.mc-component li > a.selected
+	{
+		border-right: 1px solid #002855;
+		margin-right: 7px;
+	}
+
+	div.MCBreadcrumbsBox_0
+	{
+		font-size: 13px;
+		mc-breadcrumbs-prefix: '';
 	}
 }
 
@@ -360,4 +372,17 @@ MadCap|searchResultsProxy
 		font-family: Calibri;
 		font-size: 30pt;
 	}
+
+	MadCap|pageFooter
+	{
+		margin-left: -.5in;
+		margin-right: -.5in;
+	}
+
+	MadCap|pageHeader
+	{
+		margin-left: -.5in;
+		margin-right: -.5in;
+	}
 }
+

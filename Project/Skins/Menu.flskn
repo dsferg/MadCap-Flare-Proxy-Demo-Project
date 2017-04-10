@@ -42,7 +42,24 @@
             Name="BackgroundColor">#ffffff</Property>
         </Properties>
       </Style>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Menu">
+          <Properties>
+            <Property
+              Name="BorderRight">none 0px transparent</Property>
+            <Property
+              Name="PaddingTop">3px</Property>
+            <Property
+              Name="PaddingBottom">3px</Property>
+            <Property
+              Name="Width">100%</Property>
+          </Properties>
+        </Style>
+      </Medium>
     </Styles>
+    <Stylesheet></Stylesheet>
   </Stylesheet>
   <Strings />
 </CatapultSkin>
