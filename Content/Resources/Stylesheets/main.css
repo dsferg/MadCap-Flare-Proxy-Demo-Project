@@ -33,6 +33,7 @@ h3
 	font-weight: 300;
 	margin-top: 0px;
 	margin-bottom: 10px;
+	mc-heading-level: 0;
 }
 
 h4
@@ -41,6 +42,7 @@ h4
 	font-weight: 300;
 	margin-bottom: 0px;
 	margin-top: 10px;
+	mc-heading-level: 0;
 }
 
 h5
@@ -49,6 +51,7 @@ h5
 	font-weight: 500;
 	margin-bottom: 0px;
 	margin-top: 10px;
+	mc-heading-level: 0;
 }
 
 p
@@ -66,7 +69,7 @@ ol,
 ul
 {
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 1.8em;
 }
 
 img
@@ -125,14 +128,14 @@ div#searchResults
 	padding: 10px;
 }
 
-ul.menu._Skins_Menu.mc-component li > a.selected,
+/*ul.menu._Skins_Menu.mc-component li > a.selected,
 ul.menu._Skins_Menu.mc-component ul > li > a:hover
 {
 	border-right: 0px solid #fff;
-	border-bottom: 1px solid #002855;
-	border-left: 1px solid #002855;
-	border-top: 1px solid #002855;
-	margin-right: -1px;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	padding-left: 3px;
 	background-color: #fff;
 }
 
@@ -142,6 +145,11 @@ ul.menu._Skins_Menu.mc-component li > a.selected
 	padding-top: 9px;
 	padding-bottom: 9px;
 	margin-left: -1px;
+}*/
+
+ul.menu._Skins_Menu.mc-component li > a.selected
+{
+	background-color: #fff;
 }
 
 .buttons.mc-component
@@ -249,6 +257,18 @@ MadCap|indexProxy
 MadCap|searchResultsProxy
 {
 	mc-master-page: url('../MasterPages/searchResults.flmsp');
+}
+
+#headerMenuProxy
+{
+	float: right;
+	margin: 0px 0px 15px 15px;
+	background-color: #eee;
+}
+
+li p
+{
+	margin-bottom: 3px;
 }
 
 @media tablet
